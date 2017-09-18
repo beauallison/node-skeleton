@@ -1,0 +1,36 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "Node.js Skeleton",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beauallison/node-skeleton.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Skeleton"
+  ],
+  "author": "Beau Allison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beauallison/node-skeleton/issues"
+  },
+  "homepage": "https://github.com/beauallison/node-skeleton#readme",
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsdoc": "^3.1.2",
+    "jest": "^21.1.0"
+  },
+  "dependencies": {
+    "boom": "^5.2.0",
+    "config": "^1.26.2",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4"
+  }
+}
